@@ -1,0 +1,53 @@
+# secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+cookies*.txt
+credentials*.json
+token*.json
+*.secret
+
+# media and binaries (never commit; use Drive)
+*.mp4
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.aac
+*.png
+*.jpg
+*.jpeg
+*.webp
+*.gif
+*.pdf
+*.docx
+*.doc
+*.ttf
+*.otf
+*.woff
+*.woff2
+*.b64
+
+# render outputs and caches
+node_modules/
+.hyperframes/
+**/project/qa/
+**/project/out.mp4
+**/project/final.mp4
+**/audio/
+gsap.min.js
+__pycache__/
+*.pyc
+.DS_Store
+
+# archives
+*.zip
+*.tar
+*.tar.gz
+
+# private book material
+manuscript.md
+part-one-draft.*
+source-accounts.md
